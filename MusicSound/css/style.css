@@ -1,0 +1,22 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid #1d98fe;
+}
+
+.scan-icon{
+  color: #0037e1;
+  font-size: 50px;
+}
+
+.capture{
+  width: 100%;
+  text-align: center;
+}
+
+canvas{
+  display: inline;
+}
