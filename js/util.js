@@ -6,6 +6,15 @@ document.getElementById("scan-button").addEventListener("click", function(){
     }
 });
 
+document.querySelector("#info").addEventListener("click", function(){
+  var teamInfo = document.querySelector("#team-info");
+  if(teamInfo.style.display === "none"){
+    teamInfo.style.display = "block";
+  }else{
+    teamInfo.style.display = "none";
+  }
+});
+
 var audio;
 
 document.getElementById("back-button").addEventListener("click", function(){
@@ -14,6 +23,7 @@ document.getElementById("back-button").addEventListener("click", function(){
   if(audio){
     audio.pause();
   }
+  previousURL = "";
 });
 
 function loadInstrument(data){
@@ -55,6 +65,8 @@ function loadInstrument(data){
   console.log(audio.src);
 
 }
+
+document.getElementById("instrument-descriptor").hidden = true;
 
 function getInstrumentFromURL(data){
   var url = new URL(data);

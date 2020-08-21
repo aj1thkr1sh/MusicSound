@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body{
+  font-family: 'Alata', sans-serif;
+}
+
+.header{
+  font-weight: bold;
+  color: #0076dd;
+}
+
 .footer {
   position: fixed;
   left: 0;
