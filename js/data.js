@@ -2,7 +2,7 @@ var MusicInstrument = {
   "flute": {
     name: "Flute",
     music: ["../MusicSound/asset/music/flute1.mp3", "../MusicSound/asset/music/flute2.mp3"],
-    image: ["../asset/image/flute.png"]
+    image: ["../MusicSound/asset/image/flute.png"]
   },
   "veena": {
     name: "Veena",
